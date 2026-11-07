@@ -44,13 +44,6 @@ body:
         - Other
     validations:
       required: true
-  - type: input
-    id: driver
-    attributes:
-      label: Graphics driver version
-      placeholder: "Enter your driver version, if known"
-    validations:
-      required: false
   - type: textarea
     id: bug-description
     attributes:
