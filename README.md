@@ -2,7 +2,7 @@
 
 This repository is the official place to report bugs and technical issues with **Lumen RT**, a hardware ray tracing mod for Minecraft Java Edition.
 
-**This repository is for bug reports only.** Feature requests, suggestions, and general questions are not accepted here.
+**This repository is primarily for bug reports.** Please keep general questions to a minimum. Feature requests and suggestions are not tracked here.
 
 ## Report a bug
 
@@ -26,7 +26,7 @@ Before submitting:
 - Reproduction steps
 - Logs or screenshots that show the issue
 
-**Logs:** You can attach `latest.log` and relevant crash reports to the issue. Please check them for personal information, usernames, file paths, access tokens, or other secrets before sharing.
+**Logs:** Please attach Minecraft's `latest.log` **and Lumen RT's own log files**, along with relevant crash reports, when available. Check all logs for personal information, usernames, file paths, access tokens, or other secrets before sharing.
 
 ## Compatibility reports
 
@@ -36,6 +36,6 @@ Reports involving other mods are welcome when they describe a reproducible rende
 
 Lumen RT is in **alpha**, so bugs, visual artifacts, compatibility issues, and performance regressions may occur.
 
-Opening an issue does not guarantee a fix or a specific timeline. Duplicate, incomplete, unrelated, or feature-request issues may be closed.
+Opening an issue does not guarantee a fix or a specific timeline. Duplicate, incomplete, unrelated, or feature-request issues may be closed. Please keep questions brief and limited so the tracker stays focused on bugs.
 
 **Do not upload executable files or private account information.**
