@@ -6,7 +6,8 @@ body:
     attributes:
       value: |
         Thanks for reporting a Lumen RT bug. Please search existing issues before submitting.
-        This tracker is **only for bugs** — not feature requests, suggestions, or general support questions.
+        This tracker is primarily for **bug reports**. Please keep general questions to a minimum; feature requests and suggestions belong elsewhere.
+        When possible, include both Minecraft's `latest.log` and Lumen RT's own log files.
         Do not include passwords, tokens, or other sensitive information in logs.
   - type: input
     id: lumen-version
@@ -94,8 +95,8 @@ body:
     id: logs
     attributes:
       label: Logs, crash reports, and screenshots
-      description: "Drag and drop files or paste links. Review logs for personal data or secrets first."
-      placeholder: "Attach latest.log, crash reports, screenshots, or video links here."
+      description: "Please attach both Minecraft's latest.log and Lumen RT's own log files, if available. Add relevant crash reports or screenshots too. Check files for personal information or secrets first."
+      placeholder: "Attach latest.log, Lumen RT log files, crash reports, screenshots, or video links here."
     validations:
       required: false
   - type: checkboxes
@@ -105,5 +106,5 @@ body:
       options:
         - label: "I searched existing issues and did not find a duplicate."
           required: true
-        - label: "This report describes a bug, not a feature request or general question."
+        - label: "I understand this tracker is primarily for bugs and that general questions should be kept to a minimum."
           required: true
