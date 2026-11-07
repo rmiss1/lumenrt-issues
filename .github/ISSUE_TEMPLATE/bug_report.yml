@@ -42,11 +42,23 @@ body:
         - Other
     validations:
       required: true
-  - type: input
+  - type: dropdown
     id: gpu
     attributes:
-      label: GPU model
-      placeholder: "e.g. NVIDIA RTX 4070 SUPER or AMD RX 7800 XT"
+      label: GPU series
+      description: "Select your GPU series."
+      options:
+        - NVIDIA GeForce RTX 20xx
+        - NVIDIA GeForce RTX 30xx
+        - NVIDIA GeForce RTX 40xx
+        - NVIDIA GeForce RTX 50xx
+        - AMD Radeon RX 5000
+        - AMD Radeon RX 6000
+        - AMD Radeon RX 7000
+        - AMD Radeon RX 9000
+        - Intel Arc A-Series
+        - Intel Arc B-Series
+        - Other
     validations:
       required: true
   - type: input
@@ -75,14 +87,14 @@ body:
         3. Enter a world ...
         4. Observe ...
     validations:
-      required: true
+      required: false
   - type: textarea
     id: expected
     attributes:
       label: Expected behavior
       placeholder: "What should have happened instead?"
     validations:
-      required: true
+      required: false
   - type: textarea
     id: mods
     attributes:
