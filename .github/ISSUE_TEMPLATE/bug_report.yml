@@ -6,7 +6,7 @@ body:
     attributes:
       value: |
         Thanks for reporting a Lumen RT bug. Please search existing issues before submitting.
-        This tracker is primarily for **bug reports**. Please keep general questions to a minimum; feature requests and suggestions belong elsewhere.
+        This tracker is primarily for **bug reports**. Please keep general questions to a minimum; feature requests and suggestions are not accepted here.
         When possible, include both Minecraft's `latest.log` and Lumen RT's own log files.
         Do not include passwords, tokens, or other sensitive information in logs.
   - type: input
