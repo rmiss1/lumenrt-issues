@@ -78,7 +78,7 @@ body:
       description: "List relevant mods and versions, or write 'None'. Include anything needed to reproduce the issue."
       placeholder: "Fabric API ..., Physics Mod ..., Grassier Grass ..."
     validations:
-      required: true
+      required: false
   - type: textarea
     id: logs
     attributes:
