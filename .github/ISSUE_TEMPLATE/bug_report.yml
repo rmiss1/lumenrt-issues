@@ -41,7 +41,6 @@ body:
       label: GPU series
       description: "Select your GPU series."
       options:
-        - NVIDIA GeForce RTX 20xx
         - NVIDIA GeForce RTX 30xx
         - NVIDIA GeForce RTX 40xx
         - NVIDIA GeForce RTX 50xx
