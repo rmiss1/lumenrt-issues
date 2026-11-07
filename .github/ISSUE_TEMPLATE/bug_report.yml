@@ -17,13 +17,6 @@ body:
       placeholder: "e.g. 0.1.4-alpha.dev.1"
     validations:
       required: true
-  - type: input
-    id: fabric-version
-    attributes:
-      label: Fabric Loader version
-      placeholder: "e.g. 0.x.x"
-    validations:
-      required: true
   - type: dropdown
     id: os
     attributes:
