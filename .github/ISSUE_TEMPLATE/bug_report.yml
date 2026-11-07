@@ -49,8 +49,6 @@ body:
         - AMD Radeon RX 6000
         - AMD Radeon RX 7000
         - AMD Radeon RX 9000
-        - Intel Arc A-Series
-        - Intel Arc B-Series
         - Other
     validations:
       required: true
