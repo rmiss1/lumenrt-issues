@@ -2,7 +2,7 @@
 
 This repository is the official place to report bugs and technical issues with **Lumen RT**, a hardware ray tracing mod for Minecraft Java Edition.
 
-**This repository is primarily for bug reports.** Please keep general questions to a minimum. Feature requests and suggestions are not tracked here.
+**This repository is primarily for bug reports.** Please keep general questions to a minimum. Feature requests and suggestions are not accepted here.
 
 ## Report a bug
 
